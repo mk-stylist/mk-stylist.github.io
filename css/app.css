@@ -14,8 +14,21 @@ a {
 
 .content {
     height: 900px;
-    background: url("/images/ksenia_bg_900.png") no-repeat ;
+    background: url("/images/ksenia_bg_900.png") no-repeat;
+    color: rgb(159, 159, 159);
 
+}
+
+.content .intro {
+    padding-top: 5em;
+}
+
+.content a {
+    color: rgb(103, 103, 103);
+}
+
+blockquote {
+    border-left: 2px solid rgb(103, 103, 103);
 }
 .content ul.owl-carousel { margin: 0; }
 
@@ -28,7 +41,7 @@ header {
 }
 
 header h1 a {
-    color: rgb(139, 139, 139);
+    color: rgb(159, 159, 159);
 }
 
 header h3 {
