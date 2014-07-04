@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('.owl-carousel').owlCarousel({
     loop:               true,
     autoplay:           true,
@@ -9,4 +10,6 @@ $(document).ready(function(){
     smartSpeed:         450,
     items:              1
   });
+
+  $('.menu').dropit();
 });
