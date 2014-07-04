@@ -14,7 +14,7 @@ a {
 
 .content {
     height: 900px;
-    background: url("ksenia_portofolio/assets/img/ksenia_bg_900.png") no-repeat;
+    background: url("/ksenia_portofolio/assets/img/ksenia_bg_900.png") no-repeat;
     color: rgb(159, 159, 159);
 
 }
