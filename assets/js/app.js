@@ -11,5 +11,5 @@ $(document).ready(function(){
     items:              1
   });
 
-  $('.menu').dropit();
+  // $('.menu').dropit();
 });
