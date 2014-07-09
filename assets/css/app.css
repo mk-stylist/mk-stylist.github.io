@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: "Cabin";
 }
 
 a {
@@ -42,6 +43,7 @@ header {
 
 header h1 a {
     color: rgb(159, 159, 159);
+    font-family: "Gloria Hallelujah";
 }
 
 header h3 {
