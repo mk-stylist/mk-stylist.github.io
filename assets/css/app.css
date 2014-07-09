@@ -3,8 +3,8 @@ body {
     font-family: "Cabin";
 }
 
-a {
-    text-decoration: none;
+a:hover {
+    color: yellow;
 }
 
 .wrap {
@@ -44,18 +44,25 @@ header {
 header h1 a {
     color: rgb(159, 159, 159);
     font-family: "Gloria Hallelujah";
+    text-decoration: none;
+
+}
+
+header h1 a:hover {
+    color: rgb(103, 103, 103);
 }
 
 header h3 {
     color: rgb(103, 103, 103);
 }
 
-header .navbar > ul li a:hover, header .navbar > ul li a:visited, header .navbar > ul li a:active {
+nav ul li a, nav ul li a:visited, nav ul li a:active {
     color: rgb(103, 103, 103);
 }
 
-header .navbar ul li a:hover {
-    color: rgb(139, 139, 139);
+
+a:hover {
+    color: green;
 }
 
 .owl-theme .owl-controls {
@@ -125,32 +132,5 @@ header .navbar ul li a:hover {
 .navbar li:hover ul { display: block; }
 .navbar ul li ul    { width: 100%; }
 .navbar ul li ul li { margin-left: 0; }
-.navbar ul li ul li a { white-space: nowrap;}
-
-
-
-
-/* ul.subnav { */
-/*     position: absolute; */
-/*     background-color: rgb(159, 159, 159); */
-/*     width: 100%; */
-/*     display: none; */
-/* } */
-
-/* ul.subnav:hover { */
-/*     display: block; */
-/* } */
-
-/* ul.subnav li { */
-/*     display: block; */
-/*     margin-left: 0; */
-/*     width: 100%; */
-/*     padding-left: 1px; */
-/*     clear: left; */
-/*     overflow: hidden; */
-/* } */
-
-
-/* ul.subnav li a { */
-/*     color: #000; */
-/* } */
+.navbar ul li ul li a { white-space: nowrap; }
+.navbar ul li a:hover { color: rgb(139, 139, 139); }
